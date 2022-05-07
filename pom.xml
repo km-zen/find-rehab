@@ -8,6 +8,7 @@
         <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>war</packaging>
     <groupId>pl.coderslab</groupId>
     <artifactId>find-rehab</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -48,6 +49,21 @@
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <version>9.0.60</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <version>2.6.6</version>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>

@@ -26,6 +26,7 @@ public class User {
     @NotBlank
     private int phoneNumber;
 
+
     public Long getId() {
         return id;
     }
